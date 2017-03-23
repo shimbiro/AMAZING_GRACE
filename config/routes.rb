@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+	root 'application#hello'
   get 'staticpages/home'
 
   get 'staticpages/help'
